@@ -1,0 +1,268 @@
+html{
+	box-sizing: border-box;	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Hind', sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix {
+	*zoom:1;
+}
+
+.container {
+	width: 1170px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.margen{
+	padding-left: 315px;
+	padding-right: 315px; 
+}
+
+.medio{
+	text-align: center;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+.mail{
+	color: rgb(51,123,184);
+	text-decoration: underline;
+	margin-top: 15px;
+}
+
+.grande{
+	font-size: 17px;
+}
+/*HEADER*/
+
+.botones a:link {
+    color: white;
+    font-style: normal;
+}
+
+.botones a:visited {
+    color: white;
+    font-style: normal;
+}
+
+.botones a:hover {
+    color: white;
+    font-style: normal;
+}
+
+.botones a:active {
+    color: white;
+    font-style: normal;
+}
+
+li a:link {
+    color:rgb(211,211,211);
+    font-style: normal;
+}
+
+li a:visited {
+    color:rgb(211,211,211);
+    font-style: normal;
+}
+
+li a:hover {
+    color:rgb(211,211,211);
+    font-style: normal;
+}
+
+li a:active {
+    color:rgb(211,211,211);
+    font-style: normal;
+}
+
+
+header {
+	background: url("images/bg.jpeg");
+	background-size: cover;
+	background-position: 0px -272px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+nav img {
+	width: 15%;
+	margin-top: 10px;
+	float: left;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-right: 15%;
+	padding-left: 77%;
+	margin-top: 25px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 5px;
+
+
+}
+
+header h1 {
+	margin-left:50px;
+	margin-right: 50px;
+	text-transform: uppercase;
+}
+
+nav {
+	height: 70px;
+}
+
+.green {
+	background-color: rgb(92,185,93);
+	border-radius: 10%;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.blue {
+	background-color: rgb(51,123,184);
+	border-radius: 10%;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.botones {
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 470px;
+	font-size: 15px;
+}
+
+header p {
+	margin-top: 30px;
+	font-size: 12px;
+}
+
+/*SEGUNDO RECTANGULO*/
+
+.c2 {
+	margin-top: 36px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.c2 img {
+	width: 22%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.c2 h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.c2 p {
+	margin-top: 30px;
+	font-size: 12px;
+}
+
+/*TERCER RECTANGULO*/
+
+.c3 {
+	border-style: solid;
+	border-color: rgb(211,211,211);
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	background-color: rgba(211,211,211,0.1);
+}
+
+.c3 h2 {
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.c3 p {
+	text-align: center;
+	font-size: 12px;
+}
+
+.chico {
+	float: left;
+	margin: 0 240px;
+	color: white;
+}
+
+.c3 span p {
+	margin-top: 65px;
+}
+
+/* FOOTER */
+
+footer .blackie{
+	height: 50px;
+	background-color: black;
+	color: white;
+	float: left;
+	width: 100%;
+}
+
+footer .blackie p{
+	text-transform: uppercase;
+
+}
+
+.contacto {
+	float: left;
+	margin-left: 395px;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.suscripcion {
+	float: right;
+	margin-right: 270px;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.interlineado {
+	margin: 2px;
+}
+
+input[type=text] {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: rgb(111,111,111);
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 4px;
+}
